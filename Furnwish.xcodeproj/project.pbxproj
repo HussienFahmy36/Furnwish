@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04648872201FB93900E8E4FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04648871201FB93900E8E4FF /* AppDelegate.swift */; };
+		04648874201FB93900E8E4FF /* FurnwishProductsViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04648873201FB93900E8E4FF /* FurnwishProductsViewer.swift */; };
+		04648877201FB93900E8E4FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04648875201FB93900E8E4FF /* Main.storyboard */; };
+		04648879201FB93900E8E4FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04648878201FB93900E8E4FF /* Assets.xcassets */; };
+		0464887C201FB93900E8E4FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464887A201FB93900E8E4FF /* LaunchScreen.storyboard */; };
+		047093E12020EE30000D2925 /* FurnwishProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047093E02020EE30000D2925 /* FurnwishProductCell.swift */; };
+		047093E42020EF7B000D2925 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047093E32020EF7B000D2925 /* Constants.swift */; };
+		047093E62020F409000D2925 /* FurnwishProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047093E52020F409000D2925 /* FurnwishProduct.swift */; };
+		047093E82020F483000D2925 /* TempProductsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047093E72020F483000D2925 /* TempProductsGenerator.swift */; };
+		047093EA202102AF000D2925 /* FurnishProductCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047093E9202102AF000D2925 /* FurnishProductCellDelegate.swift */; };
+		047093EC2021060A000D2925 /* FurnwishSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047093EB2021060A000D2925 /* FurnwishSession.swift */; };
+		047093EF2021125F000D2925 /* ProductARViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047093EE2021125F000D2925 /* ProductARViewerViewController.swift */; };
+		047093F420211A31000D2925 /* FurnwishProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047093F320211A31000D2925 /* FurnwishProductCollectionViewCell.swift */; };
+		0488AF1320211E5700EA836A /* ApplyThemeToCurrentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488AF1220211E5700EA836A /* ApplyThemeToCurrentCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0464886E201FB93900E8E4FF /* Furnwish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Furnwish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04648871201FB93900E8E4FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04648873201FB93900E8E4FF /* FurnwishProductsViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnwishProductsViewer.swift; sourceTree = "<group>"; };
+		04648876201FB93900E8E4FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04648878201FB93900E8E4FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0464887B201FB93900E8E4FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0464887D201FB93900E8E4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047093E02020EE30000D2925 /* FurnwishProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnwishProductCell.swift; sourceTree = "<group>"; };
+		047093E32020EF7B000D2925 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		047093E52020F409000D2925 /* FurnwishProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnwishProduct.swift; sourceTree = "<group>"; };
+		047093E72020F483000D2925 /* TempProductsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempProductsGenerator.swift; sourceTree = "<group>"; };
+		047093E9202102AF000D2925 /* FurnishProductCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnishProductCellDelegate.swift; sourceTree = "<group>"; };
+		047093EB2021060A000D2925 /* FurnwishSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnwishSession.swift; sourceTree = "<group>"; };
+		047093EE2021125F000D2925 /* ProductARViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductARViewerViewController.swift; sourceTree = "<group>"; };
+		047093F320211A31000D2925 /* FurnwishProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnwishProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		0488AF1220211E5700EA836A /* ApplyThemeToCurrentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyThemeToCurrentCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0464886B201FB93900E8E4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04648865201FB93900E8E4FF = {
+			isa = PBXGroup;
+			children = (
+				04648870201FB93900E8E4FF /* Furnwish */,
+				0464886F201FB93900E8E4FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0464886F201FB93900E8E4FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0464886E201FB93900E8E4FF /* Furnwish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04648870201FB93900E8E4FF /* Furnwish */ = {
+			isa = PBXGroup;
+			children = (
+				047093E22020EF6B000D2925 /* Utilities */,
+				04648888201FBCA700E8E4FF /* Model */,
+				04648886201FBC9E00E8E4FF /* View */,
+				04648884201FBC9800E8E4FF /* Controller */,
+				04648871201FB93900E8E4FF /* AppDelegate.swift */,
+				04648878201FB93900E8E4FF /* Assets.xcassets */,
+				0464887A201FB93900E8E4FF /* LaunchScreen.storyboard */,
+				0464887D201FB93900E8E4FF /* Info.plist */,
+			);
+			path = Furnwish;
+			sourceTree = "<group>";
+		};
+		04648884201FBC9800E8E4FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047093ED2021123E000D2925 /* Product Ar viewer */,
+				04648885201FBC9800E8E4FF /* Category selection */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04648885201FBC9800E8E4FF /* Category selection */ = {
+			isa = PBXGroup;
+			children = (
+				047093DF2020EAC7000D2925 /* Cells */,
+				04648873201FB93900E8E4FF /* FurnwishProductsViewer.swift */,
+			);
+			path = "Category selection";
+			sourceTree = "<group>";
+		};
+		04648886201FBC9E00E8E4FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04648875201FB93900E8E4FF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04648888201FBCA700E8E4FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				047093E52020F409000D2925 /* FurnwishProduct.swift */,
+				047093EB2021060A000D2925 /* FurnwishSession.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047093DF2020EAC7000D2925 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				047093E02020EE30000D2925 /* FurnwishProductCell.swift */,
+				047093E9202102AF000D2925 /* FurnishProductCellDelegate.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		047093E22020EF6B000D2925 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				047093E32020EF7B000D2925 /* Constants.swift */,
+				047093E72020F483000D2925 /* TempProductsGenerator.swift */,
+				0488AF1220211E5700EA836A /* ApplyThemeToCurrentCell.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		047093ED2021123E000D2925 /* Product Ar viewer */ = {
+			isa = PBXGroup;
+			children = (
+				047093F0202119AA000D2925 /* cells */,
+				047093EE2021125F000D2925 /* ProductARViewerViewController.swift */,
+			);
+			path = "Product Ar viewer";
+			sourceTree = "<group>";
+		};
+		047093F0202119AA000D2925 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				047093F320211A31000D2925 /* FurnwishProductCollectionViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0464886D201FB93900E8E4FF /* Furnwish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04648880201FB93900E8E4FF /* Build configuration list for PBXNativeTarget "Furnwish" */;
+			buildPhases = (
+				0464886A201FB93900E8E4FF /* Sources */,
+				0464886B201FB93900E8E4FF /* Frameworks */,
+				0464886C201FB93900E8E4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Furnwish;
+			productName = Furnwish;
+			productReference = 0464886E201FB93900E8E4FF /* Furnwish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04648866201FB93900E8E4FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Furnwish;
+				TargetAttributes = {
+					0464886D201FB93900E8E4FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04648869201FB93900E8E4FF /* Build configuration list for PBXProject "Furnwish" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04648865201FB93900E8E4FF;
+			productRefGroup = 0464886F201FB93900E8E4FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0464886D201FB93900E8E4FF /* Furnwish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0464886C201FB93900E8E4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0464887C201FB93900E8E4FF /* LaunchScreen.storyboard in Resources */,
+				04648879201FB93900E8E4FF /* Assets.xcassets in Resources */,
+				04648877201FB93900E8E4FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0464886A201FB93900E8E4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04648874201FB93900E8E4FF /* FurnwishProductsViewer.swift in Sources */,
+				0488AF1320211E5700EA836A /* ApplyThemeToCurrentCell.swift in Sources */,
+				047093E12020EE30000D2925 /* FurnwishProductCell.swift in Sources */,
+				047093EF2021125F000D2925 /* ProductARViewerViewController.swift in Sources */,
+				047093EC2021060A000D2925 /* FurnwishSession.swift in Sources */,
+				047093F420211A31000D2925 /* FurnwishProductCollectionViewCell.swift in Sources */,
+				04648872201FB93900E8E4FF /* AppDelegate.swift in Sources */,
+				047093E62020F409000D2925 /* FurnwishProduct.swift in Sources */,
+				047093EA202102AF000D2925 /* FurnishProductCellDelegate.swift in Sources */,
+				047093E42020EF7B000D2925 /* Constants.swift in Sources */,
+				047093E82020F483000D2925 /* TempProductsGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04648875201FB93900E8E4FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04648876201FB93900E8E4FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0464887A201FB93900E8E4FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0464887B201FB93900E8E4FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0464887E201FB93900E8E4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0464887F201FB93900E8E4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04648881201FB93900E8E4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XDTE8MQ3RZ;
+				INFOPLIST_FILE = Furnwish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Furnish.Furnwish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04648882201FB93900E8E4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XDTE8MQ3RZ;
+				INFOPLIST_FILE = Furnwish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Furnish.Furnwish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04648869201FB93900E8E4FF /* Build configuration list for PBXProject "Furnwish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0464887E201FB93900E8E4FF /* Debug */,
+				0464887F201FB93900E8E4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04648880201FB93900E8E4FF /* Build configuration list for PBXNativeTarget "Furnwish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04648881201FB93900E8E4FF /* Debug */,
+				04648882201FB93900E8E4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04648866201FB93900E8E4FF /* Project object */;
+}
