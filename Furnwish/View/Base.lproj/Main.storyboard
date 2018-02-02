@@ -193,15 +193,25 @@
                                                                 <constraint firstAttribute="width" secondItem="i5l-g2-KEO" secondAttribute="height" multiplier="41:23" id="Bfj-sZ-jyD"/>
                                                             </constraints>
                                                         </imageView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iR1-8P-idR">
+                                                            <rect key="frame" x="93" y="0.0" width="30" height="30"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="30" id="DA7-lA-nDk"/>
+                                                                <constraint firstAttribute="height" constant="30" id="Ylv-ya-aRU"/>
+                                                            </constraints>
+                                                        </imageView>
                                                     </subviews>
                                                 </view>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="i5l-g2-KEO" secondAttribute="trailing" id="48t-Rt-WAs"/>
+                                                    <constraint firstItem="iR1-8P-idR" firstAttribute="top" secondItem="i5l-g2-KEO" secondAttribute="top" id="SB7-jQ-3jO"/>
+                                                    <constraint firstAttribute="trailing" secondItem="iR1-8P-idR" secondAttribute="trailing" id="XLP-xc-qsC"/>
                                                     <constraint firstItem="i5l-g2-KEO" firstAttribute="leading" secondItem="mWa-VU-veY" secondAttribute="leading" id="hbc-03-gOh"/>
                                                     <constraint firstAttribute="bottom" secondItem="i5l-g2-KEO" secondAttribute="bottom" id="iGA-z8-OvQ"/>
                                                     <constraint firstItem="i5l-g2-KEO" firstAttribute="top" secondItem="mWa-VU-veY" secondAttribute="top" id="mjQ-si-ymM"/>
                                                 </constraints>
                                                 <connections>
+                                                    <outlet property="currentlySelectedProductImage" destination="iR1-8P-idR" id="GVT-bW-oqg"/>
                                                     <outlet property="furniwishProductImage" destination="i5l-g2-KEO" id="ze9-Fv-s9X"/>
                                                 </connections>
                                             </collectionViewCell>

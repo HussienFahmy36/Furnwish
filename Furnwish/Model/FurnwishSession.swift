@@ -19,7 +19,14 @@ class FurnwishSession: NSObject {
             itemsInFavourite.append(product)
     }
     public func removeProductFromFavourite(product: FurnwishProduct){
-        itemsInFavourite.remove(at: product.number - 1)
+        var i = 0
+        for item in itemsInFavourite {
+            if item.number == product.number
+            {
+                itemsInFavourite.remove(at: i)
+            }
+            i = i + 1
+        }
     }
     public func getCurrentlyFavouriteProductList() -> [FurnwishProduct]{
         return itemsInFavourite

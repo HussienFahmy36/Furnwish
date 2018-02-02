@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0448CF0320239C1F0097258F /* ship.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0448CF0120239C1F0097258F /* ship.scn */; };
+		0448CF0420239C1F0097258F /* texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 0448CF0220239C1F0097258F /* texture.png */; };
 		04648872201FB93900E8E4FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04648871201FB93900E8E4FF /* AppDelegate.swift */; };
 		04648874201FB93900E8E4FF /* FurnwishProductsViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04648873201FB93900E8E4FF /* FurnwishProductsViewer.swift */; };
 		04648877201FB93900E8E4FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04648875201FB93900E8E4FF /* Main.storyboard */; };
@@ -21,9 +23,22 @@
 		047093EF2021125F000D2925 /* ProductARViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047093EE2021125F000D2925 /* ProductARViewerViewController.swift */; };
 		047093F420211A31000D2925 /* FurnwishProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047093F320211A31000D2925 /* FurnwishProductCollectionViewCell.swift */; };
 		0488AF1320211E5700EA836A /* ApplyThemeToCurrentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488AF1220211E5700EA836A /* ApplyThemeToCurrentCell.swift */; };
+		049C551720245F16006D4F54 /* APezzi1_default_metalness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 049C551120245F15006D4F54 /* APezzi1_default_metalness.jpg */; };
+		049C551820245F16006D4F54 /* APezzi1.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 049C551220245F15006D4F54 /* APezzi1.mtl */; };
+		049C551920245F16006D4F54 /* APezzi1_default_color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 049C551320245F15006D4F54 /* APezzi1_default_color.jpg */; };
+		049C551A20245F16006D4F54 /* APezzi1_default_ao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 049C551420245F15006D4F54 /* APezzi1_default_ao.jpg */; };
+		049C551B20245F16006D4F54 /* APezzi1.obj in Resources */ = {isa = PBXBuildFile; fileRef = 049C551520245F15006D4F54 /* APezzi1.obj */; };
+		049C551C20245F16006D4F54 /* APezzi1_default_rough.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 049C551620245F15006D4F54 /* APezzi1_default_rough.jpg */; };
+		049C554920247EAA006D4F54 /* alexruano_Wormhole_Table_OBJ.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 049C554520247EA9006D4F54 /* alexruano_Wormhole_Table_OBJ.mtl */; };
+		049C554A20247EAA006D4F54 /* Oak natural dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 049C554620247EAA006D4F54 /* Oak natural dark.jpg */; };
+		049C554B20247EAA006D4F54 /* alexruano_Wormhole_Table_OBJ.obj in Resources */ = {isa = PBXBuildFile; fileRef = 049C554720247EAA006D4F54 /* alexruano_Wormhole_Table_OBJ.obj */; };
+		049C554C20247EAA006D4F54 /* wood_bump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 049C554820247EAA006D4F54 /* wood_bump.jpg */; };
+		049C554F20247F7A006D4F54 /* dvs001(1).obj in Resources */ = {isa = PBXBuildFile; fileRef = 049C554E20247F7A006D4F54 /* dvs001(1).obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0448CF0120239C1F0097258F /* ship.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ship.scn; sourceTree = "<group>"; };
+		0448CF0220239C1F0097258F /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture.png; sourceTree = "<group>"; };
 		0464886E201FB93900E8E4FF /* Furnwish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Furnwish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04648871201FB93900E8E4FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04648873201FB93900E8E4FF /* FurnwishProductsViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnwishProductsViewer.swift; sourceTree = "<group>"; };
@@ -40,6 +55,17 @@
 		047093EE2021125F000D2925 /* ProductARViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductARViewerViewController.swift; sourceTree = "<group>"; };
 		047093F320211A31000D2925 /* FurnwishProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnwishProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		0488AF1220211E5700EA836A /* ApplyThemeToCurrentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyThemeToCurrentCell.swift; sourceTree = "<group>"; };
+		049C551120245F15006D4F54 /* APezzi1_default_metalness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = APezzi1_default_metalness.jpg; sourceTree = "<group>"; };
+		049C551220245F15006D4F54 /* APezzi1.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APezzi1.mtl; sourceTree = "<group>"; };
+		049C551320245F15006D4F54 /* APezzi1_default_color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = APezzi1_default_color.jpg; sourceTree = "<group>"; };
+		049C551420245F15006D4F54 /* APezzi1_default_ao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = APezzi1_default_ao.jpg; sourceTree = "<group>"; };
+		049C551520245F15006D4F54 /* APezzi1.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APezzi1.obj; sourceTree = "<group>"; };
+		049C551620245F15006D4F54 /* APezzi1_default_rough.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = APezzi1_default_rough.jpg; sourceTree = "<group>"; };
+		049C554520247EA9006D4F54 /* alexruano_Wormhole_Table_OBJ.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alexruano_Wormhole_Table_OBJ.mtl; sourceTree = "<group>"; };
+		049C554620247EAA006D4F54 /* Oak natural dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oak natural dark.jpg"; sourceTree = "<group>"; };
+		049C554720247EAA006D4F54 /* alexruano_Wormhole_Table_OBJ.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alexruano_Wormhole_Table_OBJ.obj; sourceTree = "<group>"; };
+		049C554820247EAA006D4F54 /* wood_bump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood_bump.jpg; sourceTree = "<group>"; };
+		049C554E20247F7A006D4F54 /* dvs001(1).obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dvs001(1).obj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +98,15 @@
 		04648870201FB93900E8E4FF /* Furnwish */ = {
 			isa = PBXGroup;
 			children = (
+				049C550F20245C53006D4F54 /* 3dModelFiles */,
 				047093E22020EF6B000D2925 /* Utilities */,
 				04648888201FBCA700E8E4FF /* Model */,
 				04648886201FBC9E00E8E4FF /* View */,
 				04648884201FBC9800E8E4FF /* Controller */,
 				04648871201FB93900E8E4FF /* AppDelegate.swift */,
 				04648878201FB93900E8E4FF /* Assets.xcassets */,
+				0448CF0120239C1F0097258F /* ship.scn */,
+				0448CF0220239C1F0097258F /* texture.png */,
 				0464887A201FB93900E8E4FF /* LaunchScreen.storyboard */,
 				0464887D201FB93900E8E4FF /* Info.plist */,
 			);
@@ -155,6 +184,56 @@
 			path = cells;
 			sourceTree = "<group>";
 		};
+		049C550F20245C53006D4F54 /* 3dModelFiles */ = {
+			isa = PBXGroup;
+			children = (
+				049C554D20247F66006D4F54 /* dvs001(1) */,
+				049C554420247E9A006D4F54 /* alexruano_Wormhole_Table_OBJ */,
+				049C554320247C40006D4F54 /* Mug */,
+				049C551020245F15006D4F54 /* sample chair */,
+			);
+			path = 3dModelFiles;
+			sourceTree = "<group>";
+		};
+		049C551020245F15006D4F54 /* sample chair */ = {
+			isa = PBXGroup;
+			children = (
+				049C551120245F15006D4F54 /* APezzi1_default_metalness.jpg */,
+				049C551220245F15006D4F54 /* APezzi1.mtl */,
+				049C551320245F15006D4F54 /* APezzi1_default_color.jpg */,
+				049C551420245F15006D4F54 /* APezzi1_default_ao.jpg */,
+				049C551520245F15006D4F54 /* APezzi1.obj */,
+				049C551620245F15006D4F54 /* APezzi1_default_rough.jpg */,
+			);
+			path = "sample chair";
+			sourceTree = "<group>";
+		};
+		049C554320247C40006D4F54 /* Mug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mug;
+			sourceTree = "<group>";
+		};
+		049C554420247E9A006D4F54 /* alexruano_Wormhole_Table_OBJ */ = {
+			isa = PBXGroup;
+			children = (
+				049C554520247EA9006D4F54 /* alexruano_Wormhole_Table_OBJ.mtl */,
+				049C554720247EAA006D4F54 /* alexruano_Wormhole_Table_OBJ.obj */,
+				049C554620247EAA006D4F54 /* Oak natural dark.jpg */,
+				049C554820247EAA006D4F54 /* wood_bump.jpg */,
+			);
+			path = alexruano_Wormhole_Table_OBJ;
+			sourceTree = "<group>";
+		};
+		049C554D20247F66006D4F54 /* dvs001(1) */ = {
+			isa = PBXGroup;
+			children = (
+				049C554E20247F7A006D4F54 /* dvs001(1).obj */,
+			);
+			path = "dvs001(1)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,8 +294,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0464887C201FB93900E8E4FF /* LaunchScreen.storyboard in Resources */,
+				0448CF0420239C1F0097258F /* texture.png in Resources */,
+				049C554920247EAA006D4F54 /* alexruano_Wormhole_Table_OBJ.mtl in Resources */,
+				049C551A20245F16006D4F54 /* APezzi1_default_ao.jpg in Resources */,
+				049C554A20247EAA006D4F54 /* Oak natural dark.jpg in Resources */,
 				04648879201FB93900E8E4FF /* Assets.xcassets in Resources */,
+				049C554F20247F7A006D4F54 /* dvs001(1).obj in Resources */,
+				049C551B20245F16006D4F54 /* APezzi1.obj in Resources */,
+				049C554C20247EAA006D4F54 /* wood_bump.jpg in Resources */,
+				049C551C20245F16006D4F54 /* APezzi1_default_rough.jpg in Resources */,
+				049C554B20247EAA006D4F54 /* alexruano_Wormhole_Table_OBJ.obj in Resources */,
 				04648877201FB93900E8E4FF /* Main.storyboard in Resources */,
+				0448CF0320239C1F0097258F /* ship.scn in Resources */,
+				049C551820245F16006D4F54 /* APezzi1.mtl in Resources */,
+				049C551920245F16006D4F54 /* APezzi1_default_color.jpg in Resources */,
+				049C551720245F16006D4F54 /* APezzi1_default_metalness.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
